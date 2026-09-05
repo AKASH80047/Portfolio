@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "akp991892-portfolio",
     "public": "build/web",
     "ignore": [
       "firebase.json",
