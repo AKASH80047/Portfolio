@@ -1,0 +1,122 @@
+/* ==========================================================================
+   RESPONSIVE BREAKPOINTS & MOBILE NAVIGATION STYLES
+   ========================================================================== */
+
+/* Tablet & Smaller (Max-width: 1024px) */
+@media (max-width: 1024px) {
+  :root {
+    --header-height: 70px;
+    --space-3xl: 4.5rem;
+  }
+
+  .about-grid, .contact-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .search-and-sort {
+    flex-direction: column;
+  }
+
+  .search-input-box {
+    max-width: 100%;
+  }
+
+  .project-card.case-study,
+  .project-card.case-study.reverse {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card.case-study.reverse .project-card-image-wrapper,
+  .project-card.case-study.reverse .project-card-body {
+    grid-column: 1;
+    grid-row: auto;
+  }
+}
+
+/* Mobile Devices (Max-width: 768px) */
+@media (max-width: 768px) {
+  :root {
+    --space-3xl: 3.5rem;
+    --space-2xl: 2.5rem;
+  }
+
+  /* Add padding bottom so fixed mobile bottom navigation doesn't cover content */
+  body {
+    padding-bottom: 70px;
+  }
+
+  /* Display Mobile Bottom Navigation */
+  .mobile-bottom-nav {
+    display: flex !important;
+  }
+
+  .mobile-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    width: 100%;
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border-color);
+    flex-direction: column;
+    padding: var(--space-lg);
+    gap: var(--space-md);
+    box-shadow: var(--shadow-lg);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: all var(--transition-normal);
+  }
+
+  .nav-links.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .hero-ctas {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-ctas .btn {
+    width: 100%;
+  }
+
+  .skills-grid, .projects-grid, .services-grid, .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-quick-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline::before {
+    left: 10px;
+  }
+
+  .timeline-item {
+    padding-left: 36px;
+  }
+
+  .timeline-dot {
+    left: 1px;
+  }
+
+  .theme-drawer {
+    right: 5%;
+    width: 90%;
+  }
+
+  .project-card.case-study {
+    border-radius: var(--radius-lg);
+  }
+
+  .project-card-body {
+    padding: var(--space-lg);
+  }
+}

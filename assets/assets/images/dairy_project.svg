@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064E3B" />
+      <stop offset="100%" stop-color="#022C22" />
+    </linearGradient>
+    <linearGradient id="cardGradD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <filter id="shadowD" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" rx="16" fill="url(#bgGradD)" />
+  <circle cx="700" cy="80" r="160" fill="#10B981" opacity="0.1" />
+
+  <g filter="url(#shadowD)">
+    <rect x="250" y="40" width="300" height="420" rx="36" fill="#064E3B" stroke="#059669" stroke-width="4" />
+    <rect x="260" y="50" width="280" height="400" rx="28" fill="#022C22" />
+    <rect x="350" y="60" width="100" height="12" rx="6" fill="#064E3B" />
+
+    <rect x="275" y="88" width="250" height="65" rx="12" fill="url(#cardGradD)" />
+    <text x="295" y="122" font-family="sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">Dairy Farm ERP</text>
+    <text x="295" y="140" font-family="sans-serif" font-size="11" fill="#D1FAE5">Yield &amp; Livestock Management</text>
+
+    <!-- Stats row -->
+    <rect x="275" y="165" width="118" height="85" rx="10" fill="#064E3B" stroke="#047857" />
+    <text x="290" y="195" font-family="sans-serif" font-size="20" font-weight="bold" fill="#34D399">1,240 L</text>
+    <text x="290" y="215" font-family="sans-serif" font-size="11" fill="#A7F3D0">Daily Milk Yield</text>
+
+    <rect x="407" y="165" width="118" height="85" rx="10" fill="#064E3B" stroke="#047857" />
+    <text x="422" y="195" font-family="sans-serif" font-size="20" font-weight="bold" fill="#34D399">142</text>
+    <text x="422" y="215" font-family="sans-serif" font-size="11" fill="#A7F3D0">Active Cattle Log</text>
+
+    <!-- Chart mock -->
+    <rect x="275" y="262" width="250" height="140" rx="12" fill="#064E3B" stroke="#059669" />
+    <text x="295" y="288" font-family="sans-serif" font-size="13" font-weight="bold" fill="#F8FAFC">Weekly Milk Production</text>
+    <polyline points="295,370 330,340 370,350 410,320 450,330 490,300" fill="none" stroke="#34D399" stroke-width="3" stroke-linecap="round" />
+  </g>
+</svg>

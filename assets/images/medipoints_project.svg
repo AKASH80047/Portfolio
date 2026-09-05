@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0F766E" />
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0.8" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+  
+  <rect width="800" height="500" rx="16" fill="url(#bgGrad)" />
+  <circle cx="650" cy="100" r="180" fill="#0284C7" opacity="0.1" />
+  <circle cx="150" cy="400" r="140" fill="#14B8A6" opacity="0.1" />
+
+  <!-- Mockup Phone Container -->
+  <g filter="url(#shadow)">
+    <!-- Device Body -->
+    <rect x="250" y="40" width="300" height="420" rx="36" fill="#1E293B" stroke="#334155" stroke-width="4" />
+    <!-- Screen Header -->
+    <rect x="260" y="50" width="280" height="400" rx="28" fill="#0F172A" />
+    <!-- Dynamic Island / Notch -->
+    <rect x="350" y="60" width="100" height="12" rx="6" fill="#020617" />
+
+    <!-- App Header -->
+    <rect x="275" y="88" width="250" height="60" rx="12" fill="url(#cardGrad)" />
+    <text x="295" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">MediPoints App</text>
+    <circle cx="495" cy="118" r="14" fill="rgba(255,255,255,0.2)" />
+    <!-- Cross icon -->
+    <path d="M495 110 V126 M487 118 H503" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Search Bar -->
+    <rect x="275" y="160" width="250" height="36" rx="18" fill="#1E293B" stroke="#334155" />
+    <text x="310" y="183" font-family="sans-serif" font-size="12" fill="#94A3B8">Search medicines, batches...</text>
+    <circle cx="295" cy="178" r="5" stroke="#94A3B8" stroke-width="2" fill="none" />
+
+    <!-- Feature Cards Grid -->
+    <!-- Card 1: Batch Tracker -->
+    <rect x="275" y="210" width="118" height="110" rx="12" fill="#1E293B" stroke="#334155" />
+    <circle cx="305" cy="240" r="16" fill="#0284C7" opacity="0.2" />
+    <path d="M305 232 V248 M297 240 H313" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" />
+    <text x="290" y="278" font-family="sans-serif" font-size="13" font-weight="bold" fill="#F8FAFC">Batch Log</text>
+    <text x="290" y="296" font-family="sans-serif" font-size="11" fill="#94A3B8">Expiry Alerts</text>
+
+    <!-- Card 2: Sales & Billing -->
+    <rect x="407" y="210" width="118" height="110" rx="12" fill="#1E293B" stroke="#334155" />
+    <circle cx="437" cy="240" r="16" fill="#10B981" opacity="0.2" />
+    <rect x="430" y="233" width="14" height="14" rx="2" stroke="#34D399" stroke-width="2" fill="none" />
+    <text x="422" y="278" font-family="sans-serif" font-size="13" font-weight="bold" fill="#F8FAFC">Billing Desk</text>
+    <text x="422" y="296" font-family="sans-serif" font-size="11" fill="#94A3B8">Instant Receipt</text>
+
+    <!-- Bottom Stock Alert Card -->
+    <rect x="275" y="332" width="250" height="70" rx="12" fill="#1E293B" stroke="#0284C7" stroke-width="1.5" />
+    <text x="295" y="360" font-family="sans-serif" font-size="14" font-weight="bold" fill="#F8FAFC">Stock Inventory Sync</text>
+    <text x="295" y="380" font-family="sans-serif" font-size="12" fill="#38BDF8">Clean Architecture &amp; Dio API</text>
+  </g>
+</svg>
