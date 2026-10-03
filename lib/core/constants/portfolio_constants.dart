@@ -4,11 +4,11 @@ class PortfolioConstants {
   static const String subRole = "Top-Rated Global Freelancer";
   static const String location = "India";
   static const String flag = "🇮🇳";
-  static const String email = "akp99192@gmail.com";
+  static const String email = "akp991892@gmail.com";
   static const String phone = "+91-7428342558";
   static const String githubUsername = "AKASH80047";
   static const String githubUrl = "https://github.com/AKASH80047";
-  static const String linkedinUrl = "https://linkedin.com/in/akash106";
+  static const String linkedinUrl = "https://www.linkedin.com/in/akash106/";
   static const String whatsappUrl = "https://wa.me/917428342558";
 
   static const String profileImage = "assets/images/akash_pandey.jpg";
