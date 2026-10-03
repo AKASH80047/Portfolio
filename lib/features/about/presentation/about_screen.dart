@@ -281,7 +281,7 @@ class AboutScreen extends StatelessWidget {
                       const Divider(),
                       const SizedBox(height: 20),
                       Text(
-                        "I am a results-driven Flutter Developer currently working at ACME INFOSOFT, building production-ready, cross-platform mobile applications for iOS and Android.",
+                        "I am a passionate Mobile App Developer specializing in building high-performance, cross-platform applications using Flutter and Dart. With a strong foundation in Computer Science Engineering, I focus on delivering scalable, clean, and maintainable code for both Android and iOS platforms.",
                         style: theme.textTheme.bodyLarge?.copyWith(
                           fontSize: 16,
                           height: 1.6,
@@ -289,7 +289,7 @@ class AboutScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 14),
                       Text(
-                        "I hold a Bachelor of Technology (B.Tech) degree in Computer Science & Engineering from Galgotias College of Engineering & Technology (CGPA: 7.51), specializing in Artificial Intelligence. My development core relies on Clean Architecture (Data, Domain, Presentation layers), robust state management using Riverpod 2.x, BLoC, and Provider, and high-performance HTTP networking with Dio.",
+                        "My expertise lies in state management (Riverpod, Provider, BLoC), backend integration (Firebase, Cloud Firestore, Node.js), and implementing robust architectures like Clean Architecture, MVVM, and MVC. I have hands-on experience developing a wide variety of applications, including e-commerce platforms, real-time chat applications, CRM systems, car marketplaces, and enterprise management tools.",
                         style: theme.textTheme.bodyLarge?.copyWith(
                           fontSize: 15,
                           height: 1.6,
@@ -298,7 +298,7 @@ class AboutScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 14),
                       Text(
-                        "Throughout my professional engineering work at ACME INFOSOFT and independent projects, I have integrated over 100+ REST API endpoints (with custom token refresh interceptors and logging), configured Firebase backend cloud services (Auth, Firestore, Cloud Storage, FCM), and resolved 100+ production bug tickets to ensure smooth user experiences.",
+                        "I thrive in building pixel-perfect UIs, integrating REST APIs (using Dio), and ensuring smooth cross-platform user experiences. Always eager to tackle complex mobile development challenges and build products that users love.",
                         style: theme.textTheme.bodyLarge?.copyWith(
                           fontSize: 15,
                           height: 1.6,

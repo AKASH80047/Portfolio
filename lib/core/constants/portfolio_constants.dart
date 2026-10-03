@@ -13,9 +13,9 @@ class PortfolioConstants {
 
   static const String profileImage = "assets/images/akash_pandey.jpg";
   static const String headline =
-      "Software Engineer | Flutter Developer | Open Source Contributor | Building Scalable & High-Performance Android and iOS Applications";
+      "Flutter Developer | Mobile App Specialist (Android & iOS) | Riverpod, Firebase & Clean Architecture";
   static const String shortIntro =
-      "Software Engineer & Mobile Application Developer specializing in Flutter, Dart, Android & iOS Development, Full-Stack Development, REST APIs, Firebase, Backend Development, Riverpod, Clean Architecture, Database Management, Cloud Technologies, Software Architecture, and Scalable High-Performance Applications. Building modern, reliable, and user-friendly applications from concept to deployment";
+      "I am a passionate Mobile App Developer specializing in building high-performance, cross-platform applications using Flutter and Dart. With a strong foundation in Computer Science Engineering, I focus on delivering scalable, clean, and maintainable code for both Android and iOS platforms.";
   static const String educationSummary =
       "Flutter & AI Engineer | iOS & Android | B.Tech CSE Graduate | Riverpod | Clean Architecture | REST & WebSockets";
 
