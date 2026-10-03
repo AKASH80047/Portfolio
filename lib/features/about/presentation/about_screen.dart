@@ -21,54 +21,54 @@ class AboutScreen extends StatelessWidget {
 
     final profileCards = [
       {
-        "title": "Flutter & AI Engineer",
-        "subtitle": "Mobile & Generative AI Architect",
-        "icon": Icons.psychology,
+        "title": "Flutter Developer",
+        "subtitle": "Mobile App Specialist",
+        "icon": Icons.phone_android,
       },
       {
-        "title": "⭐ Top-Rated Freelancer",
-        "subtitle": "100% Job Success Score (Upwork/Direct)",
-        "icon": Icons.star,
+        "title": "Cross-Platform",
+        "subtitle": "Android & iOS Applications",
+        "icon": Icons.devices,
       },
       {
-        "title": "🌍 45+ Global Deliveries",
-        "subtitle": "USA, UK, Germany, UAE & India",
-        "icon": Icons.public,
+        "title": "Clean Architecture",
+        "subtitle": "Scalable & Maintainable Code",
+        "icon": Icons.architecture,
       },
       {
         "title": "B.Tech CSE Graduate",
-        "subtitle": "Galgotias College (CGPA: 7.51)",
+        "subtitle": "Computer Science Engineering",
         "icon": Icons.school_outlined,
       },
     ];
 
     final whatIBuildCards = [
       {
-        "title": "Generative AI & Agentic Workflows",
-        "desc":
-            "Multi-Agent copilots, real-time streaming LLM chat (GPT-4o, Claude 3.5, Gemini 1.5), Vector RAG semantic search (Pinecone), and LangChain orchestration.",
-        "tech": "GenAI • Vector RAG • Pinecone • WebSockets",
-        "icon": Icons.psychology_outlined,
-      },
-      {
         "title": "Cross-Platform Mobile Applications",
         "desc":
-            "High-performance iOS, Android & Web apps with responsive interfaces, pixel-perfect Material 3 design, 60fps animations, and native platform bindings.",
+            "High-performance iOS and Android apps with responsive interfaces, seamless animations, and native platform bindings.",
         "tech": "Flutter • Dart • iOS • Android",
         "icon": Icons.phone_android,
       },
       {
-        "title": "API-Driven & Real-Time Microservices",
+        "title": "Firebase & Cloud Backend",
         "desc":
-            "Enterprise production apps integrated with 100+ REST APIs and WebSockets via Dio HTTP client, handling JWT token rotation, offline caching, and retry interceptors.",
-        "tech": "REST API • Dio • WebSockets • Caching",
-        "icon": Icons.cloud_sync_outlined,
+            "Integrating secure user authentication, real-time Cloud Firestore databases, and Firebase Storage for robust backend solutions.",
+        "tech": "Firebase • Firestore • Auth",
+        "icon": Icons.cloud_done_outlined,
       },
       {
-        "title": "Clean Architecture & State Management",
+        "title": "API-Driven Architecture",
         "desc":
-            "Scalable software architectures structured into Presentation, Domain (Use Cases), and Data (Repositories) layers using Riverpod 2.0 & BLoC state management.",
-        "tech": "Riverpod 2.0 • BLoC • Clean Architecture",
+            "Developing production-ready apps integrated with REST APIs using Dio HTTP client, handling data parsing and dynamic updates.",
+        "tech": "REST API • Dio • JSON",
+        "icon": Icons.api,
+      },
+      {
+        "title": "State Management & Clean Code",
+        "desc":
+            "Structuring scalable apps using Clean Architecture, MVC/MVVM patterns, and managing complex state with Riverpod, Provider, and BLoC.",
+        "tech": "Riverpod • Provider • BLoC",
         "icon": Icons.account_tree_outlined,
       },
     ];
